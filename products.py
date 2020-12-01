@@ -6,3 +6,6 @@ while True:
 	price = input('Insert Product Price: ')
 	products.append([name, price])
 print(products)	
+
+for p in products:
+	print('Product:', p[0], ' Price:', p[1])
